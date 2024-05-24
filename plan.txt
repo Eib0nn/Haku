@@ -1,0 +1,13 @@
+MAIN THING \
+            \ gold per day of a crop
+            \ gold per month of a crop
+            \ total gold of a multi-modal crop
+            \ have a bundle separate thing for easier task management 
+        \ FORMULAS (shit math right there)
+        gold per day of a crop\
+                               \ Growing Days = Days to Maturity + ((Max Harvests − 1) × Days to Regrow)
+                               \ Minimum Gold per Day = ((Max Harvests × Sell Price per Harvest) − Seed Price) / Growing Days
+        gold per month of a crop\
+                                 \ Minum Gold per Moth = ((Max Harvests * Sell Price per Harvest) - Seed Price) / Growing Days * (Total days of the month / Growing Days)
+                                 \ Dont count exceeded days (like the Parsnip need 4 days to have a crop, 
+                                 so in a month you have have only 7 crops a.k.a 28 days of crop)

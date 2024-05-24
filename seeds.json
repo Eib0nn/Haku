@@ -1,0 +1,413 @@
+{
+    "seeds":[
+        {
+            "name": "blue_Jazz",
+            "days_to_maturity": 7,
+            "seed_price": 30,
+            "max_harvest": 1,
+            "sell_price_per_harvest": 50,
+            "days_to_regrow": 0,
+            "season": "spring"
+        },
+
+        {
+            "name": "carrot",
+            "days_to_maturity": 3,
+            "seed_price": 0,
+            "max_harvest": 1,
+            "sell_price_per_harvest": 35,
+            "days_to_regrow": 0,
+            "season": "spring"
+        },
+
+        {
+            "name": "cauliflower",
+            "days_to_maturity": 12,
+            "seed_price": 80,
+            "max_harvest": 1,
+            "sell_price_per_harvest": 175,
+            "days_to_regrow": 0,
+            "season": "spring"
+        },
+
+        {
+            "name": "coffee_bean",
+            "days_to_maturity": 10,
+            "seed_price": 2500,
+            "max_harvest": 14,
+            "sell_price_per_harvest": 60,
+            "days_to_regrow": 2,
+            "season": "spring"
+        },
+        
+        {
+            "name": "garlic",
+            "days_to_maturity": 4,
+            "seed_price": 40,
+            "max_harvest": 1,
+            "sell_price_per_harvest": 60,
+            "days_to_regrow": 0,
+            "season": "spring"
+        },
+
+        {
+            "name": "green_bean",
+            "days_to_maturity": 10,
+            "seed_price": 60,
+            "max_harvest": 9,
+            "sell_price_per_harvest": 40,
+            "days_to_regrow": 3,
+            "season": "spring"
+        },
+        
+        {
+            "name": "kale",
+            "days_to_maturity": 6,
+            "seed_price": 70,
+            "max_harvest": 1,
+            "sell_price_per_harvest": 110,
+            "days_to_regrow": 0,
+            "season": "spring"
+        },
+
+        {
+            "name": "parsnip",
+            "days_to_maturity": 4,
+            "seed_price": 50,
+            "max_harvest": 1,
+            "sell_price_per_harvest": 80,
+            "days_to_regrow": 0,
+            "season": "spring"
+        },
+
+        {
+            "name": "rhubarb",
+            "days_to_maturity": 13,
+            "seed_price": 100,
+            "max_harvest": 1,
+            "sell_price_per_harvest": 220,
+            "days_to_regrow": 0,
+            "season": "spring"
+        },
+
+        {
+            "name": "strawberry",
+            "days_to_maturity": 8,
+            "seed_price": 100,
+            "max_harvest": 7,
+            "sell_price_per_harvest": 120,
+            "days_to_regrow": 4,
+            "season": "spring"
+        },
+
+        {
+            "name": "tulip",
+            "days_to_maturity": 6,
+            "seed_price": 20,
+            "max_harvest": 1,
+            "sell_price_per_harvest": 30,
+            "days_to_regrow": 0,
+            "season": "spring"
+        },
+
+        {
+            "name": "unmilled_rice",
+            "days_to_maturity": 8,
+            "seed_price": 40,
+            "max_harvest": 1,
+            "sell_price_per_harvest": 30,
+            "days_to_regrow": 0,
+            "season": "spring"
+        },
+
+        {
+            "name": "blueberry",
+            "days_to_maturity": 13,
+            "seed_price": 80,
+            "max_harvest": 7,
+            "sell_price_per_harvest": 50,
+            "days_to_regrow": 4,
+            "season": "summer"
+        },
+
+        {
+            "name": "corn",
+            "days_to_maturity": 14,
+            "seed_price": 150,
+            "max_harvest": 7,
+            "sell_price_per_harvest": 50,
+            "days_to_regrow": 4,
+            "season": "summer"
+        },
+
+        {
+            "name": "hops",
+            "days_to_maturity": 11,
+            "seed_price": 60,
+            "max_harvest": 28,
+            "sell_price_per_harvest": 25,
+            "days_to_regrow": 1,
+            "season": "summer"
+        },
+
+        {
+            "name": "hot_pepper",
+            "days_to_maturity": 5,
+            "seed_price": 40,
+            "max_harvest": 9,
+            "sell_price_per_harvest": 40,
+            "days_to_regrow": 3,
+            "season": "summer"
+        },
+
+        {
+            "name": "melon",
+            "days_to_maturity": 12,
+            "seed_price": 80,
+            "max_harvest": 1,
+            "sell_price_per_harvest": 250,
+            "days_to_regrow": 0,
+            "season": "summer"
+        },
+
+        {
+            "name": "poppy",
+            "days_to_maturity": 7,
+            "seed_price": 100,
+            "max_harvest": 1,
+            "sell_price_per_harvest": 140,
+            "days_to_regrow": 0,
+            "season": "summer"
+        },
+
+        {
+            "name": "radish",
+            "days_to_maturity": 6,
+            "seed_price": 40,
+            "max_harvest": 1,
+            "sell_price_per_harvest": 90,
+            "days_to_regrow": 0,
+            "season": "summer"
+        },
+
+        {
+            "name": "red_cabagge",
+            "days_to_maturity": 9,
+            "seed_price": 100,
+            "max_harvest": 1,
+            "sell_price_per_harvest": 260,
+            "days_to_regrow": 0,
+            "season": "summer"
+        },
+
+        {
+            "name": "starfruit",
+            "days_to_maturity": 13,
+            "seed_price": 400,
+            "max_harvest": 1,
+            "sell_price_per_harvest": 750,
+            "days_to_regrow": 0,
+            "season": "summer"
+        },
+
+        {
+            "name": "summer_spangle",
+            "days_to_maturity": 8,
+            "seed_price": 50,
+            "max_harvest": 1,
+            "sell_price_per_harvest": 90,
+            "days_to_regrow": 0,
+            "season": "summer"
+        },
+
+        {
+            "name": "summer_squash",
+            "days_to_maturity": 6,
+            "seed_price": 0,
+            "max_harvest": 9,
+            "sell_price_per_harvest": 45,
+            "days_to_regrow": 3,
+            "season": "summer"
+        },
+
+        {
+            "name": "sunflower",
+            "days_to_maturity": 8,
+            "seed_price": 200,
+            "max_harvest": 1,
+            "sell_price_per_harvest": 80,
+            "days_to_regrow": 0,
+            "season": "summer"
+        },
+
+        {
+            "name": "tomato",
+            "days_to_maturity": 11,
+            "seed_price": 50,
+            "max_harvest": 7,
+            "sell_price_per_harvest": 60,
+            "days_to_regrow": 4,
+            "season": "summer"
+        },
+
+        {
+            "name": "wheat",
+            "days_to_maturity": 4,
+            "seed_price": 10,
+            "max_harvest": 1,
+            "sell_price_per_harvest": 25,
+            "days_to_regrow": 0,
+            "season": "summer"
+        },
+
+        {
+            "name": "amaranth",
+            "days_to_maturity": 7,
+            "seed_price": 70,
+            "max_harvest": 1,
+            "sell_price_per_harvest": 150,
+            "days_to_regrow": 0,
+            "season": "fall"
+        },
+
+        {
+            "name": "artichoke",
+            "days_to_maturity": 8,
+            "seed_price": 30,
+            "max_harvest": 1,
+            "sell_price_per_harvest": 160,
+            "days_to_regrow": 0,
+            "season": "fall"
+        },
+
+        {
+            "name": "beet",
+            "days_to_maturity": 6,
+            "seed_price": 20,
+            "max_harvest": 1,
+            "sell_price_per_harvest": 100,
+            "days_to_regrow": 0,
+            "season": "fall"
+        },
+
+        {
+            "name": "bok_choy",
+            "days_to_maturity": 4,
+            "seed_price": 50,
+            "max_harvest": 1,
+            "sell_price_per_harvest": 80,
+            "days_to_regrow": 0,
+            "season": "fall"
+        },
+
+        {
+            "name": "broccoli",
+            "days_to_maturity": 8,
+            "seed_price": 0,
+            "max_harvest": 7,
+            "sell_price_per_harvest": 70,
+            "days_to_regrow": 4,
+            "season": "fall"
+        },
+
+        {
+            "name": "cranberries",
+            "days_to_maturity": 7,
+            "seed_price": 240,
+            "max_harvest": 5,
+            "sell_price_per_harvest": 150,
+            "days_to_regrow": 5,
+            "season": "fall"
+        },
+
+        {
+            "name": "eggplant",
+            "days_to_maturity": 5,
+            "seed_price": 20,
+            "max_harvest": 5,
+            "sell_price_per_harvest": 60,
+            "days_to_regrow": 5,
+            "season": "fall"
+        },
+
+        {
+            "name": "fairy_rose",
+            "days_to_maturity": 12,
+            "seed_price": 200,
+            "max_harvest": 1,
+            "sell_price_per_harvest": 290,
+            "days_to_regrow": 0,
+            "season": "fall"
+        },
+
+        {
+            "name": "grape",
+            "days_to_maturity": 10,
+            "seed_price": 60,
+            "max_harvest": 9,
+            "sell_price_per_harvest": 80,
+            "days_to_regrow": 3,
+            "season": "fall"
+        },
+
+        {
+            "name": "pumpkin",
+            "days_to_maturity": 13,
+            "seed_price": 100,
+            "max_harvest": 1,
+            "sell_price_per_harvest": 320,
+            "days_to_regrow": 0,
+            "season": "fall"
+        },
+
+        {
+            "name": "yam",
+            "days_to_maturity": 10,
+            "seed_price": 60,
+            "max_harvest": 1,
+            "sell_price_per_harvest": 160,
+            "days_to_regrow": 0,
+            "season": "fall"
+        },
+
+        {
+            "name": "powdermelon",
+            "days_to_maturity": 7,
+            "seed_price": 0,
+            "max_harvest": 1,
+            "sell_price_per_harvest": 60,
+            "days_to_regrow": 0,
+            "season": "winter"
+        },
+
+        {
+            "name": "ancient_fruit",
+            "days_to_maturity": 28,
+            "seed_price": 0,
+            "max_harvest": 4,
+            "sell_price_per_harvest": 550,
+            "days_to_regrow": 7,
+            "season": ["spring", "summer", "fall"]
+        },
+
+        {
+            "name": "cactus_fruit",
+            "days_to_maturity": 12,
+            "seed_price": 150,
+            "max_harvest": 9,
+            "sell_price_per_harvest": 75,
+            "days_to_regrow": 3,
+            "season": "no_season"
+        },
+
+        {
+            "name": "fiber",
+            "days_to_maturity": 7,
+            "seed_price": 0,
+            "max_harvest": 1,
+            "sell_price_per_harvest": 4,
+            "days_to_regrow": 0,
+            "season": "all_seasons"
+        }
+    ]
+}
