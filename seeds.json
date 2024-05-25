@@ -73,6 +73,16 @@
         {
             "name": "parsnip",
             "days_to_maturity": 4,
+            "seed_price": 20,
+            "max_harvest": 1,
+            "sell_price_per_harvest": 35,
+            "days_to_regrow": 0,
+            "season": "spring"
+        },
+
+        {
+            "name": "potato",
+            "days_to_maturity": 6,
             "seed_price": 50,
             "max_harvest": 1,
             "sell_price_per_harvest": 80,
