@@ -34,7 +34,7 @@
             "name": "coffee_bean",
             "days_to_maturity": 10,
             "seed_price": 2500,
-            "max_harvest": 14,
+            "max_harvest": 12,
             "sell_price_per_harvest": 60,
             "days_to_regrow": 2,
             "season": "spring"
@@ -54,7 +54,7 @@
             "name": "green_bean",
             "days_to_maturity": 10,
             "seed_price": 60,
-            "max_harvest": 9,
+            "max_harvest": 6,
             "sell_price_per_harvest": 40,
             "days_to_regrow": 3,
             "season": "spring"
@@ -104,7 +104,7 @@
             "name": "strawberry",
             "days_to_maturity": 8,
             "seed_price": 100,
-            "max_harvest": 7,
+            "max_harvest": 5,
             "sell_price_per_harvest": 120,
             "days_to_regrow": 4,
             "season": "spring"
@@ -134,8 +134,8 @@
             "name": "blueberry",
             "days_to_maturity": 13,
             "seed_price": 80,
-            "max_harvest": 7,
-            "sell_price_per_harvest": 50,
+            "max_harvest": 4,
+            "sell_price_per_harvest": 150,
             "days_to_regrow": 4,
             "season": "summer"
         },
@@ -144,7 +144,7 @@
             "name": "corn",
             "days_to_maturity": 14,
             "seed_price": 150,
-            "max_harvest": 7,
+            "max_harvest": 4,
             "sell_price_per_harvest": 50,
             "days_to_regrow": 4,
             "season": "summer"
@@ -154,7 +154,7 @@
             "name": "hops",
             "days_to_maturity": 11,
             "seed_price": 60,
-            "max_harvest": 28,
+            "max_harvest": 17,
             "sell_price_per_harvest": 25,
             "days_to_regrow": 1,
             "season": "summer"
@@ -164,7 +164,7 @@
             "name": "hot_pepper",
             "days_to_maturity": 5,
             "seed_price": 40,
-            "max_harvest": 9,
+            "max_harvest": 8,
             "sell_price_per_harvest": 40,
             "days_to_regrow": 3,
             "season": "summer"
@@ -234,7 +234,7 @@
             "name": "summer_squash",
             "days_to_maturity": 6,
             "seed_price": 0,
-            "max_harvest": 9,
+            "max_harvest": 6,
             "sell_price_per_harvest": 45,
             "days_to_regrow": 3,
             "season": "summer"
@@ -254,7 +254,7 @@
             "name": "tomato",
             "days_to_maturity": 11,
             "seed_price": 50,
-            "max_harvest": 7,
+            "max_harvest": 5,
             "sell_price_per_harvest": 60,
             "days_to_regrow": 4,
             "season": "summer"
@@ -314,7 +314,7 @@
             "name": "broccoli",
             "days_to_maturity": 8,
             "seed_price": 0,
-            "max_harvest": 7,
+            "max_harvest": 5,
             "sell_price_per_harvest": 70,
             "days_to_regrow": 4,
             "season": "fall"
@@ -354,7 +354,7 @@
             "name": "grape",
             "days_to_maturity": 10,
             "seed_price": 60,
-            "max_harvest": 9,
+            "max_harvest": 6,
             "sell_price_per_harvest": 80,
             "days_to_regrow": 3,
             "season": "fall"
@@ -417,6 +417,46 @@
             "max_harvest": 1,
             "sell_price_per_harvest": 4,
             "days_to_regrow": 0,
+            "season": "all_seasons"
+        },
+
+        {
+            "name": "pineapple",
+            "days_to_maturity": 14,
+            "seed_price": 0,
+            "max_harvest": 2,
+            "sell_price_per_harvest": 300,
+            "days_to_regrow": 7,
+            "season": "summer"
+        },
+
+        {
+            "name": "taro_root",
+            "days_to_maturity": 7,
+            "seed_price": 0,
+            "max_harvest": 1,
+            "sell_price_per_harvest": 100,
+            "days_to_regrow": 0,
+            "season": "summer"
+        },
+
+        {
+            "name": "sweet_gem_berry",
+            "days_to_maturity": 24,
+            "seed_price": 1000,
+            "max_harvest": 1,
+            "sell_price_per_harvest": 3000,
+            "days_to_regrow": 0,
+            "season": "fall"
+        },
+
+        {
+            "name": "tea_leaves",
+            "days_to_maturity": 20,
+            "seed_price": 0,
+            "max_harvest": 8,
+            "sell_price_per_harvest": 50,
+            "days_to_regrow": 1,
             "season": "all_seasons"
         }
     ]
