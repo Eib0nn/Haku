@@ -54,7 +54,27 @@ class Crops_calculator:
         CC.populate_variables(seed_name=seed_name)
         cost = quantityOfSeeds * self.seedPrice
         return cost
+    
+def count_key(data, key):
+    count = 0
+    
+    if isinstance(data, dict):
+        for k, v in data.items():
+            if k == key:
+                count += 1
+            count += count_key(v, key)
+    elif isinstance(data, list):
+        for item in data:
+            count += count_key(item, key)
+    
+    return count
 
+with open('seeds.json', 'r') as file_seed:
+            data = json.load(file_seed)
+
+key = "name"
+count = count_key(data, key)
+print(f"have {count}s names")
 if __name__ == "__main__":
     CC = Crops_calculator()
 
