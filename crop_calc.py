@@ -15,6 +15,7 @@ class Crops_calculator:
     def populate_variables(self, seed_name):
         with open('seeds.json', 'r') as file_seed:
             data = json.load(file_seed)
+
         self.name = seed_name
         seeds_db = data['seeds']
 
@@ -31,7 +32,8 @@ class Crops_calculator:
         self.populate_variables(seed_name=seed_name)
         growing_days = self.daysToMaturity + ((self.maxHarvest - 1) * self.daysToRegrow)
         minimum_gold_per_day = ((self.maxHarvest * self.sellPricePerHarvest) - self.seedPrice) / growing_days
-        return minimum_gold_per_day
+        formatted = "{:.2f}".format(minimum_gold_per_day)
+        return formatted
     
     def net_income_per_month(self, seed_name, quantityOfPlantedSeeds):
         self.populate_variables(seed_name=seed_name)
