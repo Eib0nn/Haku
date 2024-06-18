@@ -28,18 +28,20 @@ class App(customtkinter.CTk):
         self.entry_seed_text = "white"
         self.remove_button_color = "#FFCE9A"
         self.remove_button_text = "white"
-        
-        self.dina_font = ("DinaRemasterII", 15)
 
         # window configuration
-        self.title("ALL I CAN FEEL IS PAIN")
+        self.title("Haku")
         self.geometry(f"{1000}x{700}")  # Increased height for better layout
 
         # load images path
         self.image_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), "images")
-        self.logo = customtkinter.CTkImage(Image.open(os.path.join(self.image_path, "goofy_logo.png")), size=(70,70))
+        font_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), "font")
+        self.data_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), "data")
+        self.logo = customtkinter.CTkImage(Image.open(os.path.join(self.image_path, "goofy_logo.png")), size=(80,70))
+        self.iconbitmap(os.path.join(self.image_path, "window_logo.ico"))
         #self.image_icon_image = customtkinter.CTkImage(Image.open(os.path.join(self.image_path, "Parsnip.png")), size=(45, 45))
-
+        self.custom_font_join = os.path.join(font_path, "DinaRemasterII")
+        self.dina_font = customtkinter.CTkFont(self.custom_font_join, 15)
         # 5x5 grid config
         self.grid_columnconfigure(0, weight=1)
         self.grid_columnconfigure(1, weight=4)
@@ -142,10 +144,10 @@ class App(customtkinter.CTk):
         calculate_button.grid(row=2, column=2)
 
     def load_json_and_create_buttons(self):
-        with open(f"seeds_ptbr.json", 'r', encoding="utf-8") as file_pt:  # Load JSON file based on language
+        with open(os.path.join(self.data_path, "seeds_ptbr.json"), 'r', encoding="utf-8") as file_pt:  # Load JSON file based on language
             translations = json.load(file_pt)
 
-        with open("seeds.json", 'r') as file:  # Load JSON file containing English names
+        with open(os.path.join(self.data_path, "seeds.json"), 'r') as file:  # Load JSON file containing English names
             data = json.load(file)
 
         row = 0

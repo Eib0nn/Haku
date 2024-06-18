@@ -1,9 +1,9 @@
 import json
-
+import os
 
 class Crops_calculator:
     def __init__ (self,name=None ,daysToMaturity=None, seedPrice=None, maxHarvest=None, sellPricePerHarvest=None, daysToRegrow=None, season=None):
-        print("Hello!\n")
+        #print("Hello!\n")
         self.name = name
         self.daysToMaturity = daysToMaturity
         self.seedPrice = seedPrice
@@ -11,9 +11,10 @@ class Crops_calculator:
         self.sellPricePerHarvest = sellPricePerHarvest
         self.daysToRegrow = daysToRegrow
         self.season = season
+        self.data_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), "data")
 
     def populate_variables(self, seed_name):
-        with open('seeds.json', 'r') as file_seed:
+        with open(os.path.join(self.data_path, "seeds.json"), 'r') as file_seed:
             data = json.load(file_seed)
 
         self.name = seed_name
